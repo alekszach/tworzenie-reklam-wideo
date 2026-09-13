@@ -5,13 +5,15 @@ description: "Twórz reklamy produktowe UGC z linku lub zdjęcia produktu: najpi
 
 # Tworzenie reklam wideo
 
-Prowadź użytkownika od produktu do reklamy z własnym bohaterem. Film referencyjny wyznacza rytm i sposób prezentacji; powstaje nowa scena, nowy tekst i własna demonstracja produktu. Rozmawiaj i zapisuj dokumentację po polsku. Język wypowiedzi w filmie wynika z briefu; domyślnie polski.
+Prowadź użytkownika od produktu do reklamy z własnym bohaterem. Film referencyjny wyznacza rytm i sposób prezentacji; powstaje nowa scena, nowy tekst i własna demonstracja produktu. Rozmawiaj i zapisuj dokumentację po polsku. Język filmu ustala użytkownik; nie ma języka domyślnego.
 
 ## Prosty start
 
 Przyjmij link albo zdjęcie produktu oraz podany wybór postaci: kobieta lub mężczyzna. Nie wymagaj filmu referencyjnego, żeby zacząć tworzyć bohatera. Jeśli użytkownik od razu dostarczył komplet, wykorzystaj go bez ponownego zbierania danych.
 
-Nie zadawaj ankiety. Ustal tylko brak, który zmienia najbliższy krok. Przy braku wyboru postaci zadaj jedno pytanie; równolegle poznaj produkt. Pozostałe rozsądne domyślne założenia: jedna dorosła fikcyjna osoba, jeden koncept, pion 9:16, naturalna prezentacja. Gdy jest referencja, dopasuj estetykę i długość do niej, chyba że brief mówi inaczej. Bez referencji proponuj roboczo 20 sekund; nie przedstawiaj własnego pomysłu jako analizy filmu.
+Nie zadawaj ankiety. Ustal tylko brak, który zmienia najbliższy krok. Jeśli brakuje wyboru postaci lub języka filmu, zapytaj o te informacje w jednej krótkiej wiadomości; równolegle poznaj produkt. Pozostałe rozsądne domyślne założenia: jedna dorosła fikcyjna osoba, jeden koncept, pion 9:16, naturalna prezentacja. Gdy jest referencja, dopasuj estetykę i długość do niej, chyba że brief mówi inaczej. Bez referencji proponuj roboczo 20 sekund; nie przedstawiaj własnego pomysłu jako analizy filmu.
+
+Jeśli użytkownik nie określił języka filmu, zapytaj: „W jakim języku ma być reklama?”. Nie wnioskuj z języka rozmowy, produktu, dokumentacji ani referencji. Wcześniejszy jawny wybór w tej kampanii pozostaje ważny; „w języku referencji” też jest wyborem, jeśli potrafisz go rozpoznać. Brak odpowiedzi nie oznacza polskiego. Do odpowiedzi kontynuuj analizę produktu, casting i analizę obrazu, ale wstrzymaj pisanie docelowych wypowiedzi, tekstów ekranowych oraz generację mowy. Przy filmie zamówionym bez mowy i bez dodawanych tekstów zapisz „język: nie dotyczy”. Jeśli użytkownik chce różne języki głosu i napisów, zapisz je osobno; w pozostałych przypadkach stosuj wybrany język także do zamówionych napisów. Zachowuj oryginalne nadruki produktu.
 
 Zapamiętuj wybory. „Dalej” kontynuuje bieżący projekt. Nowy produkt nie dziedziczy automatycznie starej twarzy, obietnic ani zgody na wydatki.
 
@@ -37,7 +39,7 @@ Zapisz zwięzłą mapę: czas → zadanie ujęcia → widoczne działanie → na
 
 Wybierz format z materiału: wypowiedź do kamery, demonstracja, rozpakowanie, produkt bez twarzy albo prezentacja aplikacji. Nie narzucaj wszystkich formatów naraz. Rozpakowanie wymaga spójnej kolejności stanów opakowania; aplikacja wymaga rzeczywistych materiałów ekranu. Przy formacie bez twarzy pomiń casting, jeśli taki jest cel użytkownika.
 
-Rozróżniaj osobę mówiącą do kamery i narrację spoza kadru. Gdy użytkownik pisze „narracja”, „lektor”, „voiceover” albo „narration voice”, wybierz [polską narrację](references/polska-narracja.md): Seedance 2.5 tworzy obraz z nową postacią i produktem, a Higgsfield osobno generuje polski głos do montażu. Domyślnie dobierz głos kobiecy do bohaterki i męski do bohatera; jawny wybór użytkownika ma pierwszeństwo. Aktor może pokazywać i obsługiwać produkt, ale nie porusza ustami jak podczas mówienia. Jeżeli referencja już ma lektora, zachowaj ten sposób opowiadania, o ile brief nie mówi inaczej. To pełnoprawny format, nie wyłącznie naprawa słabej wymowy generatora.
+Rozróżniaj osobę mówiącą do kamery i narrację spoza kadru. Gdy użytkownik pisze „narracja”, „lektor”, „voiceover” albo „narration voice”, wybierz narrację spoza kadru, w języku ustalonym z użytkownikiem. Samo słowo „voiceover” nie określa języka. Dla wybranego polskiego zastosuj [polską narrację](references/polska-narracja.md): Seedance 2.5 tworzy obraz z nową postacią i produktem, a Higgsfield osobno generuje polski głos do montażu. Dla angielskiego lub innego wybranego języka dobierz obsługujący go głos i odpowiedni model obrazu według aktualnych możliwości; wygeneruj, odsłuchaj i dołącz narrację w montażu. Domyślnie dobierz głos kobiecy do bohaterki i męski do bohatera; jawny wybór użytkownika ma pierwszeństwo. Aktor może pokazywać i obsługiwać produkt, ale nie porusza ustami jak podczas mówienia. Jeżeli referencja już ma lektora, zachowaj ten sposób opowiadania, o ile brief nie mówi inaczej. To pełnoprawny format, nie wyłącznie naprawa słabej wymowy generatora.
 
 ## 3. Plan gotowy do generacji
 
@@ -69,6 +71,6 @@ Zwróć odtwarzalny film albo jasno nazwany rezultat częściowy, wraz z prompta
 
 ## Pamięć projektu
 
-W katalogu kampanii poza dystrybuowanym skillem przechowuj `projekt.md`: brief, potwierdzone informacje, wybrana postać, wzorce produktu, źródła, plan, wersja i następny krok. Dodaj prompty oraz `generacje.json` dopiero przy produkcji: parametry bez sekretów, zakres zlecenia, koszt znany/szacowany, identyfikatory zadań, statusy i pliki wynikowe. Nie nadpisuj przyjętych wersji. Zmiana twarzy unieważnia zależne ujęcia; zmiana samego wezwania do działania nie wymaga ponownego castingu.
+W katalogu kampanii poza dystrybuowanym skillem przechowuj `projekt.md`: brief, wybrany język mowy i tekstów ekranowych (albo „do ustalenia” / „nie dotyczy”), potwierdzone informacje, wybrana postać, wzorce produktu, źródła, plan, wersja i następny krok. Dodaj prompty oraz `generacje.json` dopiero przy produkcji: parametry bez sekretów, zakres zlecenia, koszt znany/szacowany, identyfikatory zadań, statusy i pliki wynikowe. Nie nadpisuj przyjętych wersji. Zmiana twarzy unieważnia zależne ujęcia; zmiana samego wezwania do działania nie wymaga ponownego castingu.
 
 Do planów wieloklipowych użyj pomocniczego [sprawdzania planu](references/sprawdzanie-planu.md), które wykrywa błędny czas i nadmiar referencji. Przykład przejścia przez workflow: [próba bez generacji](references/przyklad.md). Nie ładuj tych materiałów, jeśli bieżący krok ich nie wymaga.

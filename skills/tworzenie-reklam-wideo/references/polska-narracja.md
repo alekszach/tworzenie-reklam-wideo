@@ -1,6 +1,6 @@
 # Polski lektor nad obrazem
 
-Uruchom ten tryb, gdy użytkownik prosi o narrację, lektora, voiceover lub „narration voice”, albo gdy analizowana referencja opowiada w ten sposób. Postać wykonuje czynności i prezentuje produkt; głos słyszymy spoza kadru. Nie wymagaj synchronizacji ust osoby, która nie mówi. Przy wyraźnym zamówieniu mowy do kamery zachowaj ten format.
+Uruchom ten tryb, gdy użytkownik wybrał język polski oraz prosi o narrację, lektora, voiceover lub „narration voice”, albo gdy przy wybranym polskim analizowana referencja opowiada w ten sposób. Samo zamówienie narracji nie oznacza polskiego: przy brakującym języku najpierw zapytaj o niego zgodnie z głównym skillem. Dla innego języka stosuj ogólne zasady narracji z [promptowania](promptowanie.md); nie tłumacz jej automatycznie na polski. Postać wykonuje czynności i prezentuje produkt; głos słyszymy spoza kadru. Nie wymagaj synchronizacji ust osoby, która nie mówi. Przy wyraźnym zamówieniu mowy do kamery zachowaj ten format.
 
 ## 1. Adaptacja referencji
 

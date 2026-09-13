@@ -24,7 +24,9 @@ Jeśli masz już komplet:
 
 > Użyj $tworzenie-reklam-wideo. Oto produkt, wybrana postać i film referencyjny. Przygotuj reklamę 30 sekund w podobnym rytmie, z własnym tekstem. Na razie pokaż scenariusz i prompty.
 
-Możesz podać mężczyznę, inny wiek dorosłej postaci, inny język, własny wizerunek, długość lub format. Przyjęte wcześniej wybory pozostają w projekcie. Nie trzeba obsługiwać osobnych etapów technicznych.
+Możesz podać mężczyznę, inny wiek dorosłej postaci, język filmu, własny wizerunek, długość lub format. Przyjęte wcześniej wybory pozostają w projekcie. Nie trzeba obsługiwać osobnych etapów technicznych.
+
+Jeśli nie podasz języka reklamy, agent zapyta: „W jakim języku ma być reklama?”. Nie zakłada polskiego na podstawie rozmowy ani języka filmu referencyjnego. Wcześniejszy wybór w tej kampanii pozostaje ważny. Dotyczy to zarówno mowy do kamery, jak i osobnego lektora; możesz wybrać też inny język napisów. Film bez mowy i dodawanych tekstów nie wymaga wyboru języka.
 
 Możesz również podać rozdzielczość filmu. Jeśli jej nie określisz, agent zapyta przed generacją i pokaże opcje dostępne dla wybranego modelu oraz dostępne różnice kosztu. Nie zakłada automatycznie 1080p. Możesz też polecić mu dobrać jakość do celu i budżetu.
 

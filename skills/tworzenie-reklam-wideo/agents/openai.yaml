@@ -1,4 +1,4 @@
 interface:
   display_name: "Tworzenie reklam wideo"
-  short_description: "Własna postać, referencja i reklama z polskim lektorem"
+  short_description: "Własna postać, referencja i reklama w wybranym języku"
   default_prompt: "Użyj $tworzenie-reklam-wideo: zacznij od mojego produktu i stwórz postać do reklamy."
