@@ -8,6 +8,7 @@ Sprawdź wygenerowany materiał, nie tylko status zadania i miniaturę. Użyj od
 | Produkt | Zgadza się wariant, proporcja, kolor, elementy i nadruk | Lepszy wzorzec, prostszy gest, rzeczywiste zdjęcie w montażu |
 | Działanie | Dłonie trzymają przedmiot, mechanizm i stany są możliwe | Podziel działanie, zmniejsz ruch kamery |
 | Wykonanie ruchu | W normalnym tempie widać właściwą, ciągłą czynność i naturalny kontakt palców; brak zaliczania póz i przenikania | Usuń zbędne klatki i sztywne czasy póz, popraw opis kontaktu lub dobierz referencję wideo; regeneruj dotknięte ujęcie |
+| Dynamika sceny | Wewnątrz ujęć rozwija się zaplanowane działanie i widać jego skutek; tempo i energia pasują do briefu, z miejscem na dostrzeżenie wyniku | Popraw działanie, zakres ruchu i rytm; sam dodatkowy zoom lub więcej cięć nie wystarcza |
 | Interakcja aplikacji | Dotknięcie lub przewinięcie daje prawidłową zmianę interfejsu | Użyj rzeczywistego nagrania ekranu lub popraw jego montaż |
 | Mowa | Właściwy język, znaczenie, wymowa, bez urwanych słów | Skróć wypowiedź, popraw wymowę, wykonaj fragment ponownie |
 | Usta i głos | Ruch ust odpowiada mowie, głos pasuje między klipami | Popraw klip lub uzgodnij demonstrację z lektorem |

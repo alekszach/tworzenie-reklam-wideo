@@ -17,7 +17,7 @@ Każdy prompt powinien dać się uruchomić bez historii rozmowy:
 1. **Wynik:** długość, proporcje, estetyka, język mowy i ewentualny brak mowy.
 2. **Referencje:** mapa plik → rola. Oznaczenia robocze `POSTAC`, `PRODUKT`, `SCENA` są nazwami w planie, nie magicznymi tagami API. W wywołaniu użyj składni aktualnego narzędzia i zachowaj kolejność.
 3. **Stan początkowy:** ciało, dłonie, produkt, ubiór, tło, kierunek światła, perspektywa kamery.
-4. **Oś czasu:** niepokrywające się przedziały obejmujące cały klip. Przybliżone okna obejmują całe czynności; fazy gestu przechodzą płynnie jedna w drugą. Zaznacz cięcia i celowe pauzy, bez obowiązkowego zatrzymywania na każdej klatce referencyjnej. Przy pracy dłoni zastosuj [naturalny ruch](ruch-i-klatki.md).
+4. **Oś czasu:** niepokrywające się przedziały obejmujące cały klip. Przybliżone okna obejmują całe czynności; fazy gestu przechodzą płynnie jedna w drugą. Zaznacz cięcia i celowe pauzy, bez obowiązkowego zatrzymywania na każdej klatce referencyjnej. Określ, co zmienia się w scenie wskutek działania, jego kierunek, zakres i tempo oraz cel ewentualnego ruchu kamery. Przy pracy dłoni i dynamicznych demonstracjach zastosuj [naturalny ruch i dynamikę sceny](ruch-i-klatki.md).
 5. **Dźwięk:** dokładne słowa w cudzysłowie, okna czasowe, tempo, barwa, pauzy i odgłosy. Muzyka nie zagłusza głosu.
 6. **Stan końcowy i stałe cechy:** pozycja produktu i dłoni do montażu, twarz, głos, światło, geometria i nadruk.
 

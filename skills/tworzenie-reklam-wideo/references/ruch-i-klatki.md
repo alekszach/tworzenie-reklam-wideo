@@ -8,6 +8,22 @@ Dostarczony MP4 analizuj bezpośrednio, bez ponownego pobierania. Obejrzyj cały
 
 Oddziel ruch dłoni, produktu, ciała i kamery. Zachowaj charakterystyczny kierunek, kolejność przyczyn i skutków oraz tempo, dostosowując chwyt do rzeczywistej konstrukcji nowego produktu. Nie przenoś czynności, której ten produkt nie umożliwia. Zapisz granice ujęć: nie łącz stanów rozdzielonych cięciem w jeden gest.
 
+## Dynamika sceny
+
+Z referencji odczytaj także energię: kiedy gest przyspiesza, jak duży ma zakres, czy osoba przemieszcza się, co zostaje odsłonięte i gdzie ruch wyhamowuje. Nie sprowadzaj dynamicznej demonstracji do ostrożnego unoszenia produktu o kilka centymetrów. Zachowaj energię istotnych działań, dopasowując je do nowego produktu i briefu. Gdy użytkownik chce więcej dynamiki, wzmacniaj czytelne działanie i jego rytm, nie tylko liczbę cięć.
+
+Dla ważnego ujęcia zapisz zwięźle: **co uruchamia akcję → co wykonuje osoba lub produkt → co się zmienia → kiedy widz może zobaczyć wynik**. Dobierz kierunek, zakres i tempo ruchu oraz ewentualną reakcję kamery. Przykładowo sięgnięcie może być energiczne, precyzyjny kontakt palców wolniejszy, a odsłonięcie rezultatu zdecydowane, z krótkim wyhamowaniem. Nie stosuj tej samej krzywej tempa do każdej sceny.
+
+Kamera może podążyć za ręką, zbliżyć się do istotnego detalu albo zmienić kąt przy odsłonięciu produktu, jeśli wynika to z referencji lub zamówionej dynamiki. Określ cel i moment takiego ruchu. Przy trudnej pracy palców utrzymaj kontakt czytelny; większy ruch kamery umieść przed demonstracją lub po niej. Nie nakładaj szybkiego obrotu kamery, zmiany chwytu i pracy mechanizmu w tej samej chwili. Dynamika może wynikać z samego działania przy nieruchomej kamerze.
+
+Łącz fazy i ujęcia tak, aby działanie rozwijało się dalej: gest odsłania detal, detal pokazuje użycie, użycie prowadzi do widocznego wyniku. Przy cięciu w ruchu zachowaj zgodny kierunek i fazę czynności. Nie zaczynaj każdego klipu od frontalnej pozy z produktem przy klatce piersiowej. Zaplanuj krótkie momenty czytelności, szczególnie dla rezultatu i wezwania do działania; nie każ wszystkiemu ruszać się bez przerwy.
+
+Przykład bardziej dynamicznego ujęcia 6 s, tylko przy potwierdzonym działaniu zatrzasku i takim charakterze briefu:
+
+> Około 0–1,5 s: bohaterka sprawnie podnosi produkt ze stołu w pole widzenia, prowadząc go po krótkim łuku; kamera lekko podąża za dłonią. Bez zatrzymywania do pozy przechodzi do demonstracji. Około 1,5–4 s: kamera uspokaja się przy dłoniach, druga ręka stabilizuje korpus, kciuk dotyka zatrzasku i naciska, powodując otwarcie. Tempo zwalnia przy kontakcie, aby działanie było widoczne. Około 4–6 s: zwalnia nacisk i płynnie obraca otwarty produkt ku kamerze, odsłaniając wynik; ruch naturalnie wyhamowuje na krótką czytelną pauzę. Zachowaj ciągłość chwytu i ciężar przedmiotu. Źródłowe klatki objaśniają przebieg gestu; postać i produkt pochodzą z osobnych wzorców.
+
+To przykład planowania, nie przepis na każdy produkt ani opis dostarczonego MP4. Nie dodawaj niepotwierdzonych efektów działania produktu dla atrakcyjności sceny.
+
 ## Materiał do analizy a wejście generatora
 
 Wyodrębnij tyle klatek, ile potrzeba do zrozumienia ruchu, zwykle przed kontaktem, podczas działania i po nim. Zachowaj czasy źródłowe i obejrzyj klatki. Ich liczba nie wyznacza liczby załączników generacji.

@@ -34,6 +34,8 @@ Po otrzymaniu linku do filmu agent najpierw próbuje pobrać wskazany materiał 
 
 Przy charakterystycznych ruchach agent analizuje cały przebieg MP4, w tym kontakt palców i reakcję produktu. Przygotowuje prompt ciągłej czynności w przybliżonych oknach czasowych. Do generacji dołącza klatki bezpośrednio wyodrębnione z filmu, z większą liczbą szczegółów przy złożonym geście, oraz osobne wzorce nowej postaci i produktu. Nie przerysowuje klatek generatorem obrazów ani nie buduje serii wygenerowanych póz. Nie wymusza zatrzymywania na kolejnych zdjęciach. Przy złożonym geście rozważa krótki wycinek wideo, jeśli wybrany tryb obsługuje takie prowadzenie ruchu. Wynik sprawdza w odtwarzaniu, nie tylko na wybranych klatkach. W reklamach aplikacji sprawdza zarówno gest dłoni, jak i reakcję ekranu; w razie potrzeby wykorzystuje rzeczywiste nagranie aplikacji w montażu. Ujęcie wymagające działania nie przechodzi kontroli jako nieruchomy ekran z dłonią.
 
+Scenariusz opisuje też to, co dzieje się wewnątrz ujęć: energię gestów, ruch produktu, reakcję na działanie, zmiany tempa i uzasadniony ruch kamery. Dynamiczna reklama ma rozwijającą się akcję oraz krótkie pauzy na zobaczenie wyniku. Nie powstaje wyłącznie przez mnożenie cięć i najazdów na nieruchome obrazy.
+
 ## Pakiet
 
 Właściwy skill znajduje się w [skills/tworzenie-reklam-wideo](skills/tworzenie-reklam-wideo/SKILL.md). Skopiuj cały ten folder do swojego katalogu skillów, np. `~/.codex/skills/`, zachowując pliki `references`, `scripts` i `agents`. Uruchom nową rozmowę, aby środowisko mogło go wykryć. Możesz też wskazać agentowi bezpośrednio plik `SKILL.md`. Samo rozpakowanie archiwum nie podłącza narzędzi generacji.
