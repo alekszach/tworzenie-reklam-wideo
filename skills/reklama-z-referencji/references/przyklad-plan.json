@@ -1,0 +1,104 @@
+{
+  "czas_docelowy_s": 30,
+  "profil": {
+    "min_s": 3,
+    "max_s": 10,
+    "max_obrazow": 7,
+    "slowa_na_s": 2
+  },
+  "klipy": [
+    {
+      "id": "01",
+      "czas_s": 10,
+      "obrazy": [
+        "POSTAC",
+        "PRODUKT",
+        "POKRYWKA"
+      ],
+      "sceny": [
+        {
+          "od_s": 0,
+          "do_s": 3,
+          "akcja": "Półzbliżenie, zamknięty kubek w lewej dłoni.",
+          "tekst": "Spójrz na tę pokrywkę.",
+          "mowa_od_s": 0.6,
+          "mowa_do_s": 2.8
+        },
+        {
+          "od_s": 3,
+          "do_s": 7,
+          "akcja": "Palec wskazuje przycisk.",
+          "tekst": "Tu jest przycisk otwierania.",
+          "mowa_od_s": 3.5,
+          "mowa_do_s": 6.2
+        },
+        {
+          "od_s": 7,
+          "do_s": 10,
+          "akcja": "Przygotowanie dłoni, bez naciśnięcia."
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "czas_s": 10,
+      "obrazy": [
+        "POSTAC",
+        "PRODUKT",
+        "POKRYWKA"
+      ],
+      "sceny": [
+        {
+          "od_s": 0,
+          "do_s": 5,
+          "akcja": "Zbliżenie: naciśnięcie przycisku i otwarcie."
+        },
+        {
+          "od_s": 5,
+          "do_s": 9,
+          "akcja": "Otwarty produkt, głos poza kadrem.",
+          "tekst": "Naciskasz i gotowe.",
+          "mowa_od_s": 5.5,
+          "mowa_do_s": 7.7
+        },
+        {
+          "od_s": 9,
+          "do_s": 10,
+          "akcja": "Stabilny produkt, cisza."
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "czas_s": 10,
+      "obrazy": [
+        "POSTAC",
+        "PRODUKT",
+        "POKRYWKA"
+      ],
+      "sceny": [
+        {
+          "od_s": 0,
+          "do_s": 5,
+          "akcja": "Bohaterka, otwarty kubek na blacie.",
+          "tekst": "To kubek PORANEK.",
+          "mowa_od_s": 1,
+          "mowa_do_s": 3.5
+        },
+        {
+          "od_s": 5,
+          "do_s": 9,
+          "akcja": "Kontakt wzrokowy, produkt widoczny.",
+          "tekst": "Sprawdź szczegóły na stronie.",
+          "mowa_od_s": 5.3,
+          "mowa_do_s": 8.3
+        },
+        {
+          "od_s": 9,
+          "do_s": 10,
+          "akcja": "Zakończenie bez mowy."
+        }
+      ]
+    }
+  ]
+}
