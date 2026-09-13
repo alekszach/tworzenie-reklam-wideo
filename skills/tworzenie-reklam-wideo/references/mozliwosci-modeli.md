@@ -23,7 +23,7 @@ Rozdzielczość wybiera użytkownik, chyba że już podał ją w briefie lub pow
 
 ## Dwa sposoby prowadzenia sceny
 
-**Dłuższy ciąg, więcej referencji.** Gdy model obsługuje długość reklamy, wyślij jeden spójny prompt z czasami. Każda wybrana klatka pokazuje ważny stan sceny, a tekst opisuje przejście między stanami. Obraz sam nie narzuca kolejności. Nie rozdzielaj na wiele generacji wyłącznie z przyzwyczajenia do starszych modeli. Złożona scena może jednak zyskać na kilku prostych klipach.
+**Dłuższy ciąg, więcej referencji.** Gdy model obsługuje długość reklamy, wyślij jeden spójny prompt z czasami. Tekst opisuje ciągłe czynności w przybliżonych oknach czasowych. Wybrane klatki wyjaśniają wygląd lub kontakt, bez wymuszania serii póz; przy złożonym ruchu rozważ obsługiwany wycinek wideo zgodnie z [doborem referencji](ruch-i-klatki.md). Nie rozdzielaj na wiele generacji wyłącznie z przyzwyczajenia do starszych modeli. Złożona scena może jednak zyskać na kilku prostych klipach.
 
 **Krótkie klipy, mało referencji.** Podziel wypowiedzi i działania na zamknięte części w dozwolonych czasach. Dla 30 s i limitu 10 s możliwy jest plan 3 × 10 s. Dla 12 s i minimum 3 s wybierz np. 6 + 6, nie 10 + 2. Uwzględnij przycięcia i nakładanie przejść w długości końcowej. Każdy klip ma własny komplet referencji, a nie wspólny limit całej kampanii, o ile narzędzie nie stanowi inaczej.
 

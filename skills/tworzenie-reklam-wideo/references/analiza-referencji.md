@@ -43,12 +43,12 @@ Zachowuj proporcje i oryginał pliku. Klatki oznaczaj czasem źródłowym. Powi�
 
 ## Dobór referencji do produkcji
 
-Przy wyróżniającym się ruchu wybierz dodatkowe klatki jego kolejnych stanów i przygotuj je do dołączenia do generacji według [prowadzenia ruchu klatkami](ruch-i-klatki.md). Zapisz czasy źródłowe oraz docelowe. Sama analiza klatek bez ich wykorzystania jako wejść nie realizuje prośby o referencje ruchu.
+Przy wyróżniającym się ruchu obejrzyj cały jego przebieg i wyodrębnij potrzebne klatki do analizy. Zapisz czasy źródłowe i docelowe okno całej czynności. Dobierz wejścia według [naturalnego ruchu i doboru referencji](ruch-i-klatki.md): nie ma obowiązku dołączania wszystkich stanów ani nadawania każdej klatce docelowej sekundy. Charakterystyczny gest przenoś jako ciągłe działanie, nie sekwencję póz.
 
 Oddziel **dowody analizy** od **załączników generacyjnych**. Setka obejrzanych klatek nie oznacza setki wysłanych obrazów. Każdy załącznik ma jedną główną rolę: twarz, produkt, ubiór, przestrzeń, kompozycja lub ruch.
 
 Źródłem wyglądu bohatera jest własny wybrany obraz. Źródłem geometrii produktu są materiały produktu. Referencja reklamy może wyznaczać rytm lub kamerę, ale nie może nadpisywać tych tożsamości. Przy sprzeczności usuń zbędny załącznik zamiast dopisywać kolejne zakazy.
 
-Cały film dołączaj do generacji tylko wtedy, gdy jest potrzebny do wyraźnie zleconego transferu ruchu/edycji, użytkownik może go w tym celu wykorzystać i wybrany tryb go obsługuje. W pozostałych przypadkach twórz własne klatki sceny lub zapisuj ruch w promptach. Nie usuwaj oznaczeń pochodzenia z cudzego filmu, aby przedstawiać go jako własny.
+Cały film dołączaj do generacji tylko wtedy, gdy jest potrzebny do wyraźnie zleconego transferu ruchu/edycji, użytkownik może go w tym celu wykorzystać i wybrany tryb go obsługuje. W pozostałych przypadkach dołącz użyteczne klatki wyodrębnione bezpośrednio ze źródła i opisz szczegółowo ciągłą czynność. Nie zlecaj generatorowi obrazów odtwarzania tych klatek z nową postacią. Jeśli wybrany tryb nie obsługuje potrzebnych wejść, nazwij ograniczenie i dobierz obsługiwaną alternatywę. Nie usuwaj oznaczeń pochodzenia z cudzego filmu, aby przedstawiać go jako własny.
 
 Gdy link wymaga logowania lub nie udostępnia odtwarzalnego materiału, wskaż ten konkretny brak. Kontynuuj produkt i postać; adaptację opartą na referencji dokończ po uzyskaniu filmu. Własny koncept można przygotować od razu, jeśli użytkownik zgadza się na taki kierunek.

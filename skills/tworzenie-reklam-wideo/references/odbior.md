@@ -7,11 +7,11 @@ Sprawdź wygenerowany materiał, nie tylko status zadania i miniaturę. Użyj od
 | Postać | Wybrana twarz pozostaje rozpoznawalna przez cały film | Usuń sprzeczne referencje, napraw dotknięty klip |
 | Produkt | Zgadza się wariant, proporcja, kolor, elementy i nadruk | Lepszy wzorzec, prostszy gest, rzeczywiste zdjęcie w montażu |
 | Działanie | Dłonie trzymają przedmiot, mechanizm i stany są możliwe | Podziel działanie, zmniejsz ruch kamery |
-| Wykonanie ruchu | Zaplanowany gest lub ruch kamery rzeczywiście występuje między stanami | Popraw klatki ruchu i przejścia; regeneruj dotknięte ujęcie |
+| Wykonanie ruchu | W normalnym tempie widać właściwą, ciągłą czynność i naturalny kontakt palców; brak zaliczania póz i przenikania | Usuń zbędne klatki i sztywne czasy póz, popraw opis kontaktu lub dobierz referencję wideo; regeneruj dotknięte ujęcie |
 | Interakcja aplikacji | Dotknięcie lub przewinięcie daje prawidłową zmianę interfejsu | Użyj rzeczywistego nagrania ekranu lub popraw jego montaż |
 | Mowa | Właściwy język, znaczenie, wymowa, bez urwanych słów | Skróć wypowiedź, popraw wymowę, wykonaj fragment ponownie |
 | Usta i głos | Ruch ust odpowiada mowie, głos pasuje między klipami | Popraw klip lub uzgodnij demonstrację z lektorem |
-| Osobny lektor | Poprawna polska narracja jest dołączona do finalnego pliku, aktor nie imituje mowy | Popraw wymowę, położenie ścieżki lub ruch ust; zachowaj wybrany głos |
+| Osobny lektor | Poprawna narracja w wybranym języku jest dołączona do finalnego pliku, aktor nie imituje mowy | Popraw wymowę, położenie ścieżki lub ruch ust; zachowaj wybrany głos |
 | Referencja | Czytelny zaplanowany rytm, własny tekst i wykonanie | Popraw otwarcie lub demonstrację |
 | Montaż | Bez przypadkowych skoków ruchu, ciszy i dubli | Przytnij zapas, wyrównaj głos, popraw cięcie |
 | Zakończenie | Produkt i wezwanie do działania dają się zrozumieć | Wydłuż spokojny kadr, skróć wcześniejsze zdanie |

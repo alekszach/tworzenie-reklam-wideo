@@ -26,6 +26,10 @@ Poprawny plan 3 × 10 s; siedem obrazów osobno dla każdego klipu; odrzucenie �
 
 [Przykład](skills/tworzenie-reklam-wideo/references/przyklad.md) przechodzi przez etapowy brief: najpierw produkt i kobieta, potem opis referencji oraz 30-sekundowy plan. Pokazuje rozdzielenie informacji z briefu od obserwacji, casting bez czekania na film, własną treść reklamy i dopasowanie do krótkich generacji. To przygotowany przez autora skilla przykład i przegląd decyzji, nie niezależny test skuteczności agenta.
 
+## Korekta po zgłoszeniu sztucznego ruchu
+
+Usunięto instrukcje odtwarzania klatek z nową postacią. Referencjami ruchu są teraz bezpośrednie klatki źródłowego MP4 lub obsługiwany wycinek wideo; casting i wzorzec produktu pozostają osobnymi wejściami. Rozbudowano opis kontaktu palców, ciągłości gestu i kontrolę robotycznego przechodzenia między pozami. Sprawdzono strukturę skilla, odnośniki oraz lokalną instalację z dostępnym automatycznym wyborem skilla. Nie obejrzano zgłoszonego wadliwego renderu ani nie uruchomiono nowej generacji w ramach tej korekty; poprawa realizmu wymaga sprawdzenia na wyniku wideo.
+
 ## Granica sprawdzenia
 
 Nie wykonano pełnej kampanii na prawdziwym produkcie i dostarczonym filmie. Nie wygenerowano portretu, klipów ani dźwięku. Nie potwierdzono jakości polskiej wymowy, synchronizacji ust, wierności etykiety ani ciągłości twarzy. Testy techniczne i wycena nie potwierdzają tych właściwości.

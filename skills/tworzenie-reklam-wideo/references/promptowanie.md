@@ -17,14 +17,14 @@ Każdy prompt powinien dać się uruchomić bez historii rozmowy:
 1. **Wynik:** długość, proporcje, estetyka, język mowy i ewentualny brak mowy.
 2. **Referencje:** mapa plik → rola. Oznaczenia robocze `POSTAC`, `PRODUKT`, `SCENA` są nazwami w planie, nie magicznymi tagami API. W wywołaniu użyj składni aktualnego narzędzia i zachowaj kolejność.
 3. **Stan początkowy:** ciało, dłonie, produkt, ubiór, tło, kierunek światła, perspektywa kamery.
-4. **Oś czasu:** niepokrywające się przedziały obejmujące cały klip. Jeden dominujący gest na krótki przedział; zaznacz cięcia i to, co zostaje nieruchome.
+4. **Oś czasu:** niepokrywające się przedziały obejmujące cały klip. Przybliżone okna obejmują całe czynności; fazy gestu przechodzą płynnie jedna w drugą. Zaznacz cięcia i celowe pauzy, bez obowiązkowego zatrzymywania na każdej klatce referencyjnej. Przy pracy dłoni zastosuj [naturalny ruch](ruch-i-klatki.md).
 5. **Dźwięk:** dokładne słowa w cudzysłowie, okna czasowe, tempo, barwa, pauzy i odgłosy. Muzyka nie zagłusza głosu.
 6. **Stan końcowy i stałe cechy:** pozycja produktu i dłoni do montażu, twarz, głos, światło, geometria i nadruk.
 
 Przykład fragmentu 10-sekundowego promptu:
 
 > 0,0–1,0 s: półzbliżenie, kamera na wysokości oczu. Bohaterka trzyma zamknięty produkt przy klatce piersiowej, etykietą do obiektywu. Krótki wdech.
-> 1,0–4,0 s: unosi produkt o kilka centymetrów, nadgarstek pozostaje nieruchomy. Mówi: „Zobacz, jak otwiera się ten kubek”.
+> 1,0–4,0 s: unosi produkt o kilka centymetrów, chwyt pozostaje pewny, nadgarstek naturalnie dopasowuje ustawienie. Mówi: „Zobacz, jak otwiera się ten kubek”.
 > 4,0–7,0 s: cięcie na dłonie. Jedną dłonią stabilizuje kubek, kciukiem drugiej otwiera mechanizm zgodnie z jego prawdziwą konstrukcją. Brak mowy, słychać kliknięcie.
 > 7,0–9,3 s: wraca półzbliżenie, produkt w tej samej orientacji. Mówi: „Sprawdź szczegóły na stronie”.
 > 9,3–10,0 s: spokojny końcowy kadr, usta zamknięte, produkt pozostaje widoczny.
