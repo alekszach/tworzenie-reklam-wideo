@@ -40,11 +40,13 @@ Scenariusz opisuje też to, co dzieje się wewnątrz ujęć: energię gestów, r
 
 Właściwy skill znajduje się w [skills/tworzenie-reklam-wideo](skills/tworzenie-reklam-wideo/SKILL.md). Skopiuj cały ten folder do swojego katalogu skillów, np. `~/.codex/skills/`, zachowując pliki `references`, `scripts` i `agents`. Uruchom nową rozmowę, aby środowisko mogło go wykryć. Możesz też wskazać agentowi bezpośrednio plik `SKILL.md`. Samo rozpakowanie archiwum nie podłącza narzędzi generacji.
 
-Rdzeń nie wymaga konkretnego modelu wideo. Dla reklam z polską narracją preferuje Seedance 2.5 do obrazu i osobny polski głos z Higgsfield. Gemini Omni Flash 1.1 pozostaje opcją do krótkich klipów. Można przygotować prompty bez połączenia z generatorem. Faktyczne obrazy i filmy wymagają dostępnych narzędzi oraz odpowiednich środków. Limity są sprawdzane przy projekcie.
+Rdzeń nie wymaga konkretnego modelu wideo. Dla reklam z polską narracją preferuje Seedance 2.5 do obrazu i osobny polski głos ElevenLabs. Gemini Omni Flash 1.1 pozostaje opcją do krótkich klipów. Można przygotować prompty bez połączenia z generatorem. Faktyczne obrazy i filmy wymagają dostępnych narzędzi oraz odpowiednich środków. Limity są sprawdzane przy projekcie.
+
+Angielski bez specjalnych wymagań korzysta z wbudowanego głosu Higgsfield i wyboru języka, jeśli udostępnia go dany tryb. Polski oraz bardziej charakterystyczne głosy, również po angielsku, korzystają z ElevenLabs. Może to być silnik ElevenLabs dostępny przez Higgsfield; nie musi wymagać osobnej integracji. Dla mowy do kamery agent zapewnia także synchronizację ust.
 
 ## Reklama z polskim lektorem
 
-> Użyj $tworzenie-reklam-wideo. Oto produkt i film referencyjny. Nowa bohaterka ma tylko pokazywać produkt, bez mówienia. Użyj Seedance 2.5 do obrazu, wybierz naturalny kobiecy głos po polsku w Higgsfield, wygeneruj narrację i dodaj ją do gotowego filmu. Zachowaj możliwie blisko rytm i ujęcia referencji, z własnym tekstem.
+> Użyj $tworzenie-reklam-wideo. Oto produkt i film referencyjny. Nowa bohaterka ma tylko pokazywać produkt, bez mówienia. Użyj Seedance 2.5 do obrazu, wybierz naturalny kobiecy głos po polsku w ElevenLabs, wygeneruj narrację i dodaj ją do gotowego filmu. Zachowaj możliwie blisko rytm i ujęcia referencji, z własnym tekstem.
 
 Dla mężczyzny skill dobiera głos męski, chyba że wskażesz inaczej. Agent mierzy gotową narrację, dopasowuje obraz i oddaje film z już dołączonym lektorem. Narrator może mówić także podczas zbliżeń produktu i demonstracji, gdy aktor nie mówi. Gdy połączenie wymaga selektora głosu, wybierasz go raz, a agent kontynuuje z zapamiętaną parą. Szczegóły i przykład: [polska narracja](skills/tworzenie-reklam-wideo/references/polska-narracja.md).
 

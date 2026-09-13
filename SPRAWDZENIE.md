@@ -30,6 +30,10 @@ Poprawny plan 3 × 10 s; siedem obrazów osobno dla każdego klipu; odrzucenie �
 
 Usunięto instrukcje odtwarzania klatek z nową postacią. Referencjami ruchu są teraz bezpośrednie klatki źródłowego MP4 lub obsługiwany wycinek wideo; casting i wzorzec produktu pozostają osobnymi wejściami. Rozbudowano opis kontaktu palców, ciągłości gestu i kontrolę robotycznego przechodzenia między pozami. Sprawdzono strukturę skilla, odnośniki oraz lokalną instalację z dostępnym automatycznym wyborem skilla. Nie obejrzano zgłoszonego wadliwego renderu ani nie uruchomiono nowej generacji w ramach tej korekty; poprawa realizmu wymaga sprawdzenia na wyniku wideo.
 
+## Dobór silnika głosu
+
+Sprawdzono odczytem `models_get` model `text2speech_v2`: katalog udostępnia wariant `elevenlabs` oraz parametry `voice_id` i `voice_type`. Instrukcje kierują angielski bez specjalnych wymagań do wbudowanego głosu Higgsfield, a polski i charakterystyczny głos do ElevenLabs. Sprawdzono strukturę, odnośniki i lokalną instalację. Nie uruchomiono syntezy ani testu wymowy; schemat nie potwierdza jakości konkretnego głosu.
+
 ## Granica sprawdzenia
 
 Nie wykonano pełnej kampanii na prawdziwym produkcie i dostarczonym filmie. Nie wygenerowano portretu, klipów ani dźwięku. Nie potwierdzono jakości polskiej wymowy, synchronizacji ust, wierności etykiety ani ciągłości twarzy. Testy techniczne i wycena nie potwierdzają tych właściwości.

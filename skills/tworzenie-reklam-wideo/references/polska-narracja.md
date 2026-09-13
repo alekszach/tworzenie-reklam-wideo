@@ -8,9 +8,11 @@ Pobierz film przez `yt-dlp` i obejrzyj go zgodnie z instrukcją analizy. Zachowa
 
 Seedance 2.5 jest preferowanym modelem obrazu w tym trybie. Użyj własnych wzorców postaci i produktu oraz opisu czasowego. Wybrane klatki kompozycji lub film mogą sterować wykonaniem tylko wtedy, gdy ich użycie jest dozwolone i potrzebne; jasno przypisz im rytm/ruch, a własnym obrazom tożsamość. Nie nadpisuj aktora twarzą z referencyjnego filmu. Jeśli użytkownik zamawia bezpośrednią edycję lub dokładny transfer ruchu, sprawdź aktualne zasady routingu narzędzia; nie uruchamiaj po cichu innego modelu.
 
-## 2. Wybór polskiego głosu
+## 2. Wybór polskiego głosu ElevenLabs
 
-Sam dobierz jeden naturalny, wyraźny głos na podstawie dostępnego katalogu Higgsfield: kobiecy do bohaterki, męski do bohatera, chyba że użytkownik wskazuje inaczej. Dopasuj do postaci przybliżony wiek brzmienia, energię i sposób mówienia. W reklamie codziennej wybierz swobodny, ciepły ton bez przesadnego radiowego patosu. Nie klonuj głosu osoby z referencji.
+Zastosuj [dobór silnika głosu](dobor-glosu.md). Polski lektor korzysta z ElevenLabs; Higgsfield może być połączeniem do tego silnika.
+
+Sam dobierz jeden naturalny, wyraźny głos z dostępnego katalogu głosów zgodnych z ElevenLabs: kobiecy do bohaterki, męski do bohatera, chyba że użytkownik wskazuje inaczej. Dopasuj do postaci przybliżony wiek brzmienia, energię i sposób mówienia. W reklamie codziennej wybierz swobodny, ciepły ton bez przesadnego radiowego patosu. Nie klonuj głosu osoby z referencji.
 
 Sprawdź aktualne narzędzia mowy i próbkę głosu, jeśli jest dostępna. Zapisz prawdziwe `voice_id` i `voice_type` z katalogu lub wcześniejszego wyboru; nie wymyślaj nazw ani identyfikatorów. Sama etykieta płci głosu nie potwierdza dobrej polskiej wymowy. Sprawdź polskie słowa, nazwę marki, liczby i końcówki w odsłuchu wygenerowanego materiału.
 
@@ -20,7 +22,7 @@ Gdy interfejs pozwala agentowi wybrać pozycję z katalogu, wybierz ją sam bez 
 
 Przygotuj osobno tekst lektora i instrukcje obrazu. Do pola tekstu syntezy mowy przekazuj wyłącznie słowa do wypowiedzenia. Nie dodawaj tam znaczników czasu, opisów ujęć ani poleceń typu „kobiecym głosem”, które mogłyby zostać przeczytane. Styl ustaw przez udostępnione parametry lub odpowiednio wybrany głos.
 
-Wywołaj generowanie mowy przez Higgsfield z rzeczywistą parą głosu i obsługiwanym silnikiem. Sprawdź obsługę polskiego; język generatora wideo nie ogranicza języka osobnej ścieżki audio. Korzystaj z aktualnego domyślnego silnika mowy połączenia, o ile pasuje; nie zakładaj, że każdy dostępny głos równie dobrze czyta po polsku. Jeśli potrzebna jest zmiana silnika, sprawdź jego zgodność z głosem i dostępność zamiast przesyłać identyfikator z innego katalogu.
+Wywołaj generowanie mowy silnikiem ElevenLabs z rzeczywistym zgodnym głosem, przez dostępny wariant Higgsfield lub połączenie ElevenLabs zgodnie z instrukcją doboru. Nie używaj domyślnego silnika Higgsfield zamiast ElevenLabs. Sprawdź obsługę polskiego i wymowę; język generatora obrazu nie ogranicza języka osobnej ścieżki audio.
 
 Generuj jedną spójną ścieżkę dla krótkiej reklamy, aby utrzymać barwę głosu przez cięcia. Zaplanuj naturalne przerwy przy demonstracji. Gdy konieczne jest dopasowanie do sztywnych okien, można wykonać osobne pełne zdania tą samą parą głosu. Zachowaj limity kosztów i ponownych prób z głównego skilla. W trybie „tylko prompty” przygotuj tekst i dobór głosu bez uruchamiania generacji.
 
@@ -48,7 +50,7 @@ Fikcyjny kubek PORANEK, bohaterka, 20 s. To przykład promptów, nie wykonana ge
 
 **Tekst syntezy:** „Spójrz na kubek Poranek. Przycisk na pokrywce pozwala go otworzyć jednym naciśnięciem. Zobacz, jak działa. Sprawdź szczegóły na stronie”.
 
-**Dobór:** naturalny kobiecy głos z katalogu Higgsfield, spokojna polska wymowa. Dla męskiego aktora ten sam tekst z wybranym głosem męskim. Dokładne identyfikatory pobierz przy realizacji.
+**Dobór:** naturalny kobiecy głos zgodny z ElevenLabs, spokojna polska wymowa. Dla męskiego aktora ten sam tekst z wybranym głosem męskim. Dokładne identyfikatory pobierz przy realizacji.
 
 **Plan obrazu:** 0–4 s bohaterka unosi kubek; 4–9 s zbliżenie na przycisk; 9–15 s naciśnięcie i otwarcie, z miejscem na przerwę w narracji; 15–20 s produkt na blacie i spokojne zakończenie. To czasy robocze do dopasowania po odsłuchu.
 

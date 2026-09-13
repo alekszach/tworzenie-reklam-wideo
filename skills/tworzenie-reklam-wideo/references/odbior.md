@@ -10,7 +10,7 @@ Sprawdź wygenerowany materiał, nie tylko status zadania i miniaturę. Użyj od
 | Wykonanie ruchu | W normalnym tempie widać właściwą, ciągłą czynność i naturalny kontakt palców; brak zaliczania póz i przenikania | Usuń zbędne klatki i sztywne czasy póz, popraw opis kontaktu lub dobierz referencję wideo; regeneruj dotknięte ujęcie |
 | Dynamika sceny | Wewnątrz ujęć rozwija się zaplanowane działanie i widać jego skutek; tempo i energia pasują do briefu, z miejscem na dostrzeżenie wyniku | Popraw działanie, zakres ruchu i rytm; sam dodatkowy zoom lub więcej cięć nie wystarcza |
 | Interakcja aplikacji | Dotknięcie lub przewinięcie daje prawidłową zmianę interfejsu | Użyj rzeczywistego nagrania ekranu lub popraw jego montaż |
-| Mowa | Właściwy język, znaczenie, wymowa, bez urwanych słów | Skróć wypowiedź, popraw wymowę, wykonaj fragment ponownie |
+| Mowa | Właściwy język i silnik według briefu (polski lub charakterystyczny głos: ElevenLabs), znaczenie, wymowa, bez urwanych słów | Skróć wypowiedź, popraw wymowę, wykonaj fragment ponownie |
 | Usta i głos | Ruch ust odpowiada mowie, głos pasuje między klipami | Popraw klip lub uzgodnij demonstrację z lektorem |
 | Osobny lektor | Poprawna narracja w wybranym języku jest dołączona do finalnego pliku, aktor nie imituje mowy | Popraw wymowę, położenie ścieżki lub ruch ust; zachowaj wybrany głos |
 | Referencja | Czytelny zaplanowany rytm, własny tekst i wykonanie | Popraw otwarcie lub demonstrację |

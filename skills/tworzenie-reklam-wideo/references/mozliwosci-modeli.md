@@ -31,7 +31,7 @@ Rozdzielczość wybiera użytkownik, chyba że już podał ją w briefie lub pow
 
 Stan sprawdzony 13.09.2026 w katalogu Higgsfield: identyfikator `gemini_omni_flash_1_1`, nowa generacja 3–10 s, tryby tekstowy, obrazowy, referencyjny i edycja; role obejmują obrazy referencyjne, początek/koniec i wideo. Dostępność połączeń ról trzeba sprawdzić dla konkretnego trybu. Katalog opisuje natywny dźwięk, ale nie stanowi testu jakości polskiej wymowy.
 
-To opcja do krótkich reklam po polsku, jeśli odpowiada preferencji użytkownika. Nie przypisuj innym językom sztywnego generatora ani nie obiecuj przewagi jakościowej bez porównania własnych wyników. [Strona modelu w Higgsfield](https://higgsfield.ai/gemini-omni-flash) i [dokumentacja producenta](https://ai.google.dev/gemini-api/docs/omni) opisują także pracę z referencjami; możliwości interfejsu producenta nie muszą być identyczne z połączeniem w Higgsfield.
+To opcja obrazu do krótkich reklam, także po polsku. Dla polskiego głosu użyj ElevenLabs według [doboru silnika głosu](dobor-glosu.md); przy mowie w kadrze sprawdź obsługę docelowego audio i synchronizacji ust. Nie przypisuj innym językom sztywnego generatora ani nie obiecuj przewagi jakościowej bez porównania własnych wyników. [Strona modelu w Higgsfield](https://higgsfield.ai/gemini-omni-flash) i [dokumentacja producenta](https://ai.google.dev/gemini-api/docs/omni) opisują także pracę z referencjami; możliwości interfejsu producenta nie muszą być identyczne z połączeniem w Higgsfield.
 
 **Budżet 7 zdjęć** jest zachowanym ustawieniem tego workflow, podanym przez użytkownika. Odczyt katalogu z powyższej daty nie zwrócił liczbowego maksimum zdjęć, więc nie traktuj go jako niezależnie potwierdzonego, uniwersalnego limitu API. Przed wysłaniem sprawdź wybrane wejścia; przy niższym limicie zmniejsz pakiet.
 
@@ -50,7 +50,7 @@ Nie wypełniaj wolnych miejsc na siłę. Często portret, produkt i własna scen
 
 ## Profil obrazu do polskiego lektora
 
-Przy polskim lektorze preferuj [Seedance 2.5 dla obrazu i osobną syntezę mowy w Higgsfield](polska-narracja.md). Polski dźwięk nie wymaga wtedy polskiej mowy w generatorze wideo. Katalog Seedance 2.5 sprawdzony 13.09.2026 udostępnia generację 4–30 s, tryb `omni_reference` i przełącznik `generate_audio`; ustaw go na `false` i dodaj lektora w montażu. Ponownie sprawdzaj parametry przy wykonaniu. Gemini pozostaje opcją dla krótszych klipów, w tym mowy w kadrze; nie traktuj ograniczeń jednego modelu jako ogólnego zakazu polskiego języka.
+Przy polskim lektorze preferuj [Seedance 2.5 dla obrazu i osobną syntezę mowy ElevenLabs](polska-narracja.md). Polski dźwięk nie wymaga wtedy polskiej mowy w generatorze wideo. Katalog Seedance 2.5 sprawdzony 13.09.2026 udostępnia generację 4–30 s, tryb `omni_reference` i przełącznik `generate_audio`; ustaw go na `false` i dodaj lektora w montażu. Ponownie sprawdzaj parametry przy wykonaniu. Gemini pozostaje opcją dla krótszych klipów, w tym mowy w kadrze; nie traktuj ograniczeń jednego modelu jako ogólnego zakazu polskiego języka.
 
 ## Elastyczność agenta
 
