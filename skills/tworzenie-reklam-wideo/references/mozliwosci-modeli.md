@@ -55,3 +55,7 @@ Przy polskim lektorze preferuj [Seedance 2.5 dla obrazu i osobną syntezę mowy 
 ## Elastyczność agenta
 
 Współczesny agent może sam obejrzeć materiały, zestawić dowody, napisać plan, wywołać narzędzia i sprawdzić wynik. Nie wymagaj osobnego agenta do każdej roli ani przepisywania dokumentów między etapami. Równoległe odczyty są przydatne; generowanie postaci, przyjęcie jej wzorca i generowanie z nią filmu pozostają zależnymi krokami. Nie wymuszaj zmiany modelu asystenta na podstawie nazwy handlowej.
+
+## Pojemność referencji Seedance
+
+Odczyt katalogu `seedance_2_5` podczas aktualizacji nie podał liczbowego maksimum obrazów. Wskazane przez użytkownika 40 zdjęć pozostaje wartością do potwierdzenia w wybranym interfejsie i trybie. Nie zapisuj 40 jako stałego limitu walidatora. Weryfikuj pełny pakiet wejść bez generacji; licz osobno i łącznie media według aktualnego schematu. Przy dużej dostępnej pojemności dobieraj bogaty zestaw źródłowych klatek według [doboru referencji](ruch-i-klatki.md), bez sztucznego pułapu kilku zdjęć.
