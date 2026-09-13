@@ -19,6 +19,8 @@ W Higgsfield odpowiednie operacje to odkrycie modeli, odczyt szczegółów, osza
 
 Estymacja może normalizować parametry. Odpowiedź dla 30 s może wyceniać tylko 10 s. Odczytaj faktycznie użyte wartości, popraw plan i oszacuj całą partię ponownie. Wycenę bez załączników nazywaj wyceną parametrów, nie pełną walidacją wejść. Nie używaj generacji jako testu limitu.
 
+Rozdzielczość wybiera użytkownik, chyba że już podał ją w briefie lub powierzył dobór agentowi. Nie narzucaj 1080p jako standardu. Odczytaj faktyczne opcje danego modelu i trybu przed pytaniem; nie oferuj 4K, gdy wybrana ścieżka go nie obsługuje. Różnice ceny podawaj z aktualnych wycen, a nie z założenia, że większy obraz zawsze kosztuje więcej. Rozróżnij rozdzielczość generacji i końcowego eksportu oraz ewentualne skalowanie obrazu. Nie przedstawiaj powiększenia jako dodatkowych szczegółów wygenerowanych natywnie. Jeśli narzędzie zmienia wybraną rozdzielczość, wyjaśnij zmianę i uzgodnij dostępny wariant lub inny model, zamiast akceptować ją po cichu. Montaż zachowuje ustaloną jakość; zmiana modelu nie zeruje preferencji użytkownika.
+
 ## Dwa sposoby prowadzenia sceny
 
 **Dłuższy ciąg, więcej referencji.** Gdy model obsługuje długość reklamy, wyślij jeden spójny prompt z czasami. Każda wybrana klatka pokazuje ważny stan sceny, a tekst opisuje przejście między stanami. Obraz sam nie narzuca kolejności. Nie rozdzielaj na wiele generacji wyłącznie z przyzwyczajenia do starszych modeli. Złożona scena może jednak zyskać na kilku prostych klipach.

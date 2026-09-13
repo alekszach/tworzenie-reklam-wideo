@@ -26,6 +26,8 @@ Jeśli masz już komplet:
 
 Możesz podać mężczyznę, inny wiek dorosłej postaci, inny język, własny wizerunek, długość lub format. Przyjęte wcześniej wybory pozostają w projekcie. Nie trzeba obsługiwać osobnych etapów technicznych.
 
+Możesz również podać rozdzielczość filmu. Jeśli jej nie określisz, agent zapyta przed generacją i pokaże opcje dostępne dla wybranego modelu oraz dostępne różnice kosztu. Nie zakłada automatycznie 1080p. Możesz też polecić mu dobrać jakość do celu i budżetu.
+
 Po otrzymaniu linku do filmu agent najpierw próbuje pobrać wskazany materiał przez `yt-dlp`, a następnie analizuje lokalny plik z dźwiękiem. Obsługuje także strony z osadzonym wideo. Linki do nieruchomych grafik traktuje jako obrazy. Przy niedostępnym materiale wyjaśnia konkretny problem i korzysta z dostępnej alternatywy lub prosi o plik.
 
 ## Pakiet

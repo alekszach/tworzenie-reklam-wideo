@@ -45,6 +45,8 @@ Przeczytaj [promptowanie](references/promptowanie.md) i dopasuj wykonanie wedłu
 
 Najpierw napisz jeden spójny scenariusz. Dopiero potem wybierz jedną generację lub podział na klipy, zgodnie z faktycznym limitem czasu, referencji i jakością wymaganej mowy. Potężniejszy agent upraszcza organizację pracy; nie zmienia limitów generatora wideo.
 
+Przed generacją wideo ustal rozdzielczość z użytkownikiem. Nie przyjmuj automatycznie 1080p ani domyślnej wartości API. Jeśli brief nie określa jakości, zapytaj krótko: „W jakiej rozdzielczości chcesz film?” i podaj tylko opcje dostępne dla wybranego modelu i trybu, np. 720p, 1080p lub 4K, wraz z dostępną różnicą kosztu. Wykorzystaj wcześniejszy wybór bez ponownego pytania. Jeśli użytkownik wyraźnie powierzył ci dobór jakości, wybierz ją według celu i budżetu oraz podaj przyjętą wartość. W oczekiwaniu na odpowiedź kontynuuj scenariusz i analizę; brak odpowiedzi nie oznacza wyboru 1080p. Zapisz rozdzielczość w planie i jawnie przekaż ją do narzędzia.
+
 Każdy klip dostaje samodzielny prompt: czas i format, przypisanie referencji, postać i produkt, otoczenie, lokalną oś czasu od 0 s, dialog lub brak mowy w kadrze, dźwięk, początek i koniec ruchu oraz warunki ciągłości. Dla każdej wypowiedzi wyznacz rzeczywiste okno mowy z miejscem na oddech. Dłuższy film ma także jedną globalną oś montażu. Nie tnij zdania mówionego w kadrze między generacjami. Osobna ścieżka lektorska może płynnie przechodzić przez cięcia obrazu.
 
 Przy limicie 7 zdjęć najpierw rezerwuj miejsca dla tożsamości i produktu. Można dołączyć wybrane klatki, jeśli zostaje miejsce; pozostałe zdarzenia opisz czasowo. Nie wysyłaj całej siatki klatek w nadziei na obejście limitu. Przy większym limicie użyj tylko tych klatek, które niosą nową informację.
