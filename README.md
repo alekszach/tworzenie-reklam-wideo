@@ -30,6 +30,8 @@ Możesz również podać rozdzielczość filmu. Jeśli jej nie określisz, agent
 
 Po otrzymaniu linku do filmu agent najpierw próbuje pobrać wskazany materiał przez `yt-dlp`, a następnie analizuje lokalny plik z dźwiękiem. Obsługuje także strony z osadzonym wideo. Linki do nieruchomych grafik traktuje jako obrazy. Przy niedostępnym materiale wyjaśnia konkretny problem i korzysta z dostępnej alternatywy lub prosi o plik.
 
+Przy charakterystycznych ruchach agent wybiera dodatkowe klatki przed, w trakcie i po czynności oraz dołącza je jako referencje, szczególnie dla Seedance 2.5. Każda ma określoną rolę, kolejność i czas. W reklamach aplikacji sprawdza zarówno gest dłoni, jak i reakcję ekranu; w razie potrzeby wykorzystuje rzeczywiste nagranie aplikacji w montażu. Ujęcie wymagające działania nie przechodzi kontroli jako nieruchomy ekran z dłonią.
+
 ## Pakiet
 
 Właściwy skill znajduje się w [skills/tworzenie-reklam-wideo](skills/tworzenie-reklam-wideo/SKILL.md). Skopiuj cały ten folder do swojego katalogu skillów, np. `~/.codex/skills/`, zachowując pliki `references`, `scripts` i `agents`. Uruchom nową rozmowę, aby środowisko mogło go wykryć. Możesz też wskazać agentowi bezpośrednio plik `SKILL.md`. Samo rozpakowanie archiwum nie podłącza narzędzi generacji.

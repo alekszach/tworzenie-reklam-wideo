@@ -7,6 +7,8 @@ Sprawdź wygenerowany materiał, nie tylko status zadania i miniaturę. Użyj od
 | Postać | Wybrana twarz pozostaje rozpoznawalna przez cały film | Usuń sprzeczne referencje, napraw dotknięty klip |
 | Produkt | Zgadza się wariant, proporcja, kolor, elementy i nadruk | Lepszy wzorzec, prostszy gest, rzeczywiste zdjęcie w montażu |
 | Działanie | Dłonie trzymają przedmiot, mechanizm i stany są możliwe | Podziel działanie, zmniejsz ruch kamery |
+| Wykonanie ruchu | Zaplanowany gest lub ruch kamery rzeczywiście występuje między stanami | Popraw klatki ruchu i przejścia; regeneruj dotknięte ujęcie |
+| Interakcja aplikacji | Dotknięcie lub przewinięcie daje prawidłową zmianę interfejsu | Użyj rzeczywistego nagrania ekranu lub popraw jego montaż |
 | Mowa | Właściwy język, znaczenie, wymowa, bez urwanych słów | Skróć wypowiedź, popraw wymowę, wykonaj fragment ponownie |
 | Usta i głos | Ruch ust odpowiada mowie, głos pasuje między klipami | Popraw klip lub uzgodnij demonstrację z lektorem |
 | Osobny lektor | Poprawna polska narracja jest dołączona do finalnego pliku, aktor nie imituje mowy | Popraw wymowę, położenie ścieżki lub ruch ust; zachowaj wybrany głos |
@@ -19,6 +21,8 @@ Krytyczne błędy: inny produkt, zmiana twarzy, błędna obietnica, niezrozumia�
 Wiersz o synchronizacji ust dotyczy wyłącznie mówienia w kadrze. Przy lektorze sprawdzaj brak pozorowanej mowy aktora oraz zgodność narracji z demonstracją; zdanie może przechodzić przez cięcie obrazu. Sprawdź, że finalny film zawiera właściwy wygenerowany głos, a nie audio ponownie stworzone przez model wideo. Osobne pliki wideo i lektora bez montażu oznaczają nieukończone zlecenie gotowej reklamy.
 
 ## Łączenie klipów
+
+Sprawdź ruch według [klatek i przebiegu ujęcia](ruch-i-klatki.md), nie tylko z miniatury. Statyczny ekran z dłonią nie przechodzi odbioru, gdy plan wymaga interakcji. Celowy nieruchomy kadr produktu lub zatrzymanie na końcu nie jest błędem.
 
 Sprawdź rzeczywiste długości, proporcje, klatkaż i ścieżkę audio. Normalizuj format do montażu bez rozciągania obrazu i przypadkowego kadrowania produktu. Twarde cięcie zwykle lepiej pasuje do dynamicznego UGC niż automatyczne przenikanie. Przy przenikaniu nakładanie skraca sumę czasów.
 

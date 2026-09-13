@@ -43,6 +43,8 @@ Zachowuj proporcje i oryginał pliku. Klatki oznaczaj czasem źródłowym. Powi�
 
 ## Dobór referencji do produkcji
 
+Przy wyróżniającym się ruchu wybierz dodatkowe klatki jego kolejnych stanów i przygotuj je do dołączenia do generacji według [prowadzenia ruchu klatkami](ruch-i-klatki.md). Zapisz czasy źródłowe oraz docelowe. Sama analiza klatek bez ich wykorzystania jako wejść nie realizuje prośby o referencje ruchu.
+
 Oddziel **dowody analizy** od **załączników generacyjnych**. Setka obejrzanych klatek nie oznacza setki wysłanych obrazów. Każdy załącznik ma jedną główną rolę: twarz, produkt, ubiór, przestrzeń, kompozycja lub ruch.
 
 Źródłem wyglądu bohatera jest własny wybrany obraz. Źródłem geometrii produktu są materiały produktu. Referencja reklamy może wyznaczać rytm lub kamerę, ale nie może nadpisywać tych tożsamości. Przy sprzeczności usuń zbędny załącznik zamiast dopisywać kolejne zakazy.

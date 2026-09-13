@@ -51,6 +51,8 @@ Każdy klip dostaje samodzielny prompt: czas i format, przypisanie referencji, p
 
 Przy limicie 7 zdjęć najpierw rezerwuj miejsca dla tożsamości i produktu. Można dołączyć wybrane klatki, jeśli zostaje miejsce; pozostałe zdarzenia opisz czasowo. Nie wysyłaj całej siatki klatek w nadziei na obejście limitu. Przy większym limicie użyj tylko tych klatek, które niosą nową informację.
 
+Gdy referencja zawiera charakterystyczny gest, ruch kamery, obrót produktu lub interakcję z aplikacją, przygotuj dodatkowe klatki ruchu do generacji, szczególnie w Seedance 2.5. Wybierz początek, ważny stan pośredni i koniec czynności, przypisz kolejność oraz docelowe czasy; dołącz je w obsługiwanych rolach i limitach obok wzorców postaci i produktu. Nie kończ na samym opisie, jeśli użyteczne klatki są dostępne. Zastosuj [prowadzenie ruchu klatkami](references/ruch-i-klatki.md). W demonstracji aplikacji sprawdzaj osobno gest dłoni i rzeczywistą reakcję interfejsu — nieruchomy ekran z widoczną dłonią nie zastępuje zaplanowanej interakcji.
+
 Pokaż użytkownikowi: obraz bohatera, krótki koncept, scenariusz z czasami, przypisanie zdjęć i konkretny zakres generacji z dostępną wyceną. Pliki techniczne obsługuj sam. Pełne prompty zachowaj jako edytowalne pliki, dostępne do wglądu. W trybie „tylko prompty” tu kończy się zadanie.
 
 ## 4. Produkcja i odbiór
