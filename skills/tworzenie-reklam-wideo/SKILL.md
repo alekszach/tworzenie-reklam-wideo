@@ -1,9 +1,9 @@
 ---
-name: reklama-z-referencji
+name: tworzenie-reklam-wideo
 description: "Twórz reklamy produktowe UGC z linku lub zdjęcia produktu: najpierw własna postać, następnie adaptacja filmu referencyjnego, scenariusz sekundowy i produkcja. Używaj także do kontynuacji tej reklamy i jej wariantów. Nie używaj do samego montażu istniejącego filmu ani do ogólnej analizy marketingowej."
 ---
 
-# Reklama z referencji
+# Tworzenie reklam wideo
 
 Prowadź użytkownika od produktu do reklamy z własnym bohaterem. Film referencyjny wyznacza rytm i sposób prezentacji; powstaje nowa scena, nowy tekst i własna demonstracja produktu. Rozmawiaj i zapisuj dokumentację po polsku. Język wypowiedzi w filmie wynika z briefu; domyślnie polski.
 
@@ -37,13 +37,15 @@ Zapisz zwięzłą mapę: czas → zadanie ujęcia → widoczne działanie → na
 
 Wybierz format z materiału: wypowiedź do kamery, demonstracja, rozpakowanie, produkt bez twarzy albo prezentacja aplikacji. Nie narzucaj wszystkich formatów naraz. Rozpakowanie wymaga spójnej kolejności stanów opakowania; aplikacja wymaga rzeczywistych materiałów ekranu. Przy formacie bez twarzy pomiń casting, jeśli taki jest cel użytkownika.
 
+Rozróżniaj osobę mówiącą do kamery i narrację spoza kadru. Gdy użytkownik pisze „narracja”, „lektor”, „voiceover” albo „narration voice”, wybierz [polską narrację](references/polska-narracja.md): Seedance 2.5 tworzy obraz z nową postacią i produktem, a Higgsfield osobno generuje polski głos do montażu. Domyślnie dobierz głos kobiecy do bohaterki i męski do bohatera; jawny wybór użytkownika ma pierwszeństwo. Aktor może pokazywać i obsługiwać produkt, ale nie porusza ustami jak podczas mówienia. Jeżeli referencja już ma lektora, zachowaj ten sposób opowiadania, o ile brief nie mówi inaczej. To pełnoprawny format, nie wyłącznie naprawa słabej wymowy generatora.
+
 ## 3. Plan gotowy do generacji
 
 Przeczytaj [promptowanie](references/promptowanie.md) i dopasuj wykonanie według [możliwości modeli](references/mozliwosci-modeli.md). Rdzeń nie wymaga konkretnego modelu. Higgsfield jest opcjonalnym, preferowanym połączeniem do produkcji; nie wprowadzaj innych obowiązkowych platform generacji.
 
 Najpierw napisz jeden spójny scenariusz. Dopiero potem wybierz jedną generację lub podział na klipy, zgodnie z faktycznym limitem czasu, referencji i jakością wymaganej mowy. Potężniejszy agent upraszcza organizację pracy; nie zmienia limitów generatora wideo.
 
-Każdy klip dostaje samodzielny prompt: czas i format, przypisanie referencji, postać i produkt, otoczenie, lokalną oś czasu od 0 s, dokładny dialog, dźwięk, początek i koniec ruchu oraz warunki ciągłości. Dla każdej wypowiedzi wyznacz rzeczywiste okno mowy z miejscem na oddech. Dłuższy film ma także jedną globalną oś montażu. Nie tnij zdania między generacjami.
+Każdy klip dostaje samodzielny prompt: czas i format, przypisanie referencji, postać i produkt, otoczenie, lokalną oś czasu od 0 s, dialog lub brak mowy w kadrze, dźwięk, początek i koniec ruchu oraz warunki ciągłości. Dla każdej wypowiedzi wyznacz rzeczywiste okno mowy z miejscem na oddech. Dłuższy film ma także jedną globalną oś montażu. Nie tnij zdania mówionego w kadrze między generacjami. Osobna ścieżka lektorska może płynnie przechodzić przez cięcia obrazu.
 
 Przy limicie 7 zdjęć najpierw rezerwuj miejsca dla tożsamości i produktu. Można dołączyć wybrane klatki, jeśli zostaje miejsce; pozostałe zdarzenia opisz czasowo. Nie wysyłaj całej siatki klatek w nadziei na obejście limitu. Przy większym limicie użyj tylko tych klatek, które niosą nową informację.
 

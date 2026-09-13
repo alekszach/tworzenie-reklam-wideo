@@ -9,11 +9,14 @@ Sprawdź wygenerowany materiał, nie tylko status zadania i miniaturę. Użyj od
 | Działanie | Dłonie trzymają przedmiot, mechanizm i stany są możliwe | Podziel działanie, zmniejsz ruch kamery |
 | Mowa | Właściwy język, znaczenie, wymowa, bez urwanych słów | Skróć wypowiedź, popraw wymowę, wykonaj fragment ponownie |
 | Usta i głos | Ruch ust odpowiada mowie, głos pasuje między klipami | Popraw klip lub uzgodnij demonstrację z lektorem |
+| Osobny lektor | Poprawna polska narracja jest dołączona do finalnego pliku, aktor nie imituje mowy | Popraw wymowę, położenie ścieżki lub ruch ust; zachowaj wybrany głos |
 | Referencja | Czytelny zaplanowany rytm, własny tekst i wykonanie | Popraw otwarcie lub demonstrację |
 | Montaż | Bez przypadkowych skoków ruchu, ciszy i dubli | Przytnij zapas, wyrównaj głos, popraw cięcie |
 | Zakończenie | Produkt i wezwanie do działania dają się zrozumieć | Wydłuż spokojny kadr, skróć wcześniejsze zdanie |
 
 Krytyczne błędy: inny produkt, zmiana twarzy, błędna obietnica, niezrozumiała mowa, uszkodzony plik, obcięte kluczowe zdanie. Ładny kolor nie równoważy takiego błędu. Drobna różnica tła jest dopuszczalna, jeśli nie szkodzi scenie. Nie używaj arbitralnego wyniku „97/100” do maskowania wad.
+
+Wiersz o synchronizacji ust dotyczy wyłącznie mówienia w kadrze. Przy lektorze sprawdzaj brak pozorowanej mowy aktora oraz zgodność narracji z demonstracją; zdanie może przechodzić przez cięcie obrazu. Sprawdź, że finalny film zawiera właściwy wygenerowany głos, a nie audio ponownie stworzone przez model wideo. Osobne pliki wideo i lektora bez montażu oznaczają nieukończone zlecenie gotowej reklamy.
 
 ## Łączenie klipów
 

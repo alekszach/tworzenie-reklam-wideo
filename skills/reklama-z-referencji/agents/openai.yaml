@@ -1,4 +1,0 @@
-interface:
-  display_name: "Reklama z referencji"
-  short_description: "Produkt, własna postać i reklama w rytmie referencji"
-  default_prompt: "Użyj $reklama-z-referencji: zacznij od mojego produktu i stwórz postać do reklamy."

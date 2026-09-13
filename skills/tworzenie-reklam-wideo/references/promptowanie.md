@@ -33,6 +33,8 @@ Demonstrację stosuj tylko, gdy konstrukcja jest potwierdzona. Jeśli nie znamy 
 
 ## Mowa po polsku i angielsku
 
+Na początku wybierz źródło głosu: aktor mówiący w kadrze albo osobny lektor. Dla „narration voice” i demonstracji bez mówienia zastosuj [polską narrację](polska-narracja.md). Tekst lektora trafia do syntezy mowy w Higgsfield; prompt Seedance 2.5 opisuje wyłącznie obraz, brak mówienia i brak generowanego audio. Nie wkładaj polskiego tekstu w usta aktora, który ma tylko prezentować produkt.
+
 Język technicznego promptu nie jest językiem dialogu. Dokumentacja pozostaje polska. Jeśli wybrany model korzysta na angielskich instrukcjach wizualnych, można przetłumaczyć tylko te instrukcje, zachowując dokładny polski tekst wypowiedzi i jawną komendę języka mowy.
 
 W polskim tekście używaj naturalnej składni, poprawnych końcówek i krótkich zdań. Liczby i skróty zapisuj w dialogu tak, jak mają być wypowiedziane; nazwę marki zachowaj prawidłowo, wymowę opisz osobno, gdy jest niejednoznaczna. Nie dodawaj doświadczenia typu „używam od miesiąca”, jeśli jest to fikcyjny prezenter, a doświadczenie nie zostało potwierdzone.

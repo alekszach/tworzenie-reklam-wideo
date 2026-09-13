@@ -10,7 +10,7 @@ import tempfile
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-SKILL = ROOT / 'skills' / 'reklama-z-referencji'
+SKILL = ROOT / 'skills' / 'tworzenie-reklam-wideo'
 SCRIPT = SKILL / 'scripts' / 'sprawdz_plan.py'
 spec = importlib.util.spec_from_file_location('sprawdz_plan', SCRIPT)
 modul = importlib.util.module_from_spec(spec)

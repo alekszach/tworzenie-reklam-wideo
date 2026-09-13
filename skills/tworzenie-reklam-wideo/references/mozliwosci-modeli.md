@@ -46,6 +46,10 @@ Praktyczna kolejność wykorzystania maksymalnie siedmiu miejsc:
 
 Nie wypełniaj wolnych miejsc na siłę. Często portret, produkt i własna scena wystarczą. Konserwatywnie licz wszystkie wysyłane obrazy, w tym początek/koniec, do wspólnego budżetu siedmiu, dopóki aktualny schemat nie potwierdzi innej zasady. Klatki referencyjne są możliwe, lecz nie powinny wypierać postaci i produktu. Kolaż nie zastępuje precyzyjnych referencji i może zostać wyrenderowany jako podzielony ekran.
 
+## Profil obrazu do polskiego lektora
+
+Przy polskim lektorze preferuj [Seedance 2.5 dla obrazu i osobną syntezę mowy w Higgsfield](polska-narracja.md). Polski dźwięk nie wymaga wtedy polskiej mowy w generatorze wideo. Katalog Seedance 2.5 sprawdzony 13.09.2026 udostępnia generację 4–30 s, tryb `omni_reference` i przełącznik `generate_audio`; ustaw go na `false` i dodaj lektora w montażu. Ponownie sprawdzaj parametry przy wykonaniu. Gemini pozostaje opcją dla krótszych klipów, w tym mowy w kadrze; nie traktuj ograniczeń jednego modelu jako ogólnego zakazu polskiego języka.
+
 ## Elastyczność agenta
 
 Współczesny agent może sam obejrzeć materiały, zestawić dowody, napisać plan, wywołać narzędzia i sprawdzić wynik. Nie wymagaj osobnego agenta do każdej roli ani przepisywania dokumentów między etapami. Równoległe odczyty są przydatne; generowanie postaci, przyjęcie jej wzorca i generowanie z nią filmu pozostają zależnymi krokami. Nie wymuszaj zmiany modelu asystenta na podstawie nazwy handlowej.

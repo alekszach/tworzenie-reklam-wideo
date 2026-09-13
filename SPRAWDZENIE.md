@@ -10,6 +10,7 @@ Data: 13.09.2026.
 - Odczyt aktualnego katalogu i szczegółów Gemini Omni Flash 1.1 przez połączenie Higgsfield.
 - Dwie rzeczywiste wyceny bez wysyłania generacji: dla 10 s i dla 30 s. Nie przesyłano mediów ani nie uruchamiano płatnych zadań.
 - Po dodaniu pobierania referencji przez `yt-dlp` sprawdzono dostępność programu, użytych opcji i etapu `after_move` w lokalnym `--help`; walidacja struktury skilla ponownie przeszła. Nie wykonywano pobierania z serwisu, ponieważ ta aktualizacja dotyczyła instrukcji i nie zawierała konkretnego linku do filmu.
+- Po zmianie nazwy na `tworzenie-reklam-wideo` dodano tryb osobnej polskiej narracji. Odczytano bieżące parametry Seedance 2.5 oraz schematy generowania mowy i wyboru głosów Higgsfield. Udokumentowano obowiązek połączenia obrazu i lektora, pomiaru czasu nagrania oraz możliwość wymaganego selektora głosu. Nie generowano próbki głosu ani filmu w ramach tej zmiany.
 
 ## Istotny wynik wyceny
 
@@ -23,7 +24,7 @@ Poprawny plan 3 × 10 s; siedem obrazów osobno dla każdego klipu; odrzucenie �
 
 ## Próba workflow
 
-[Przykład](skills/reklama-z-referencji/references/przyklad.md) przechodzi przez etapowy brief: najpierw produkt i kobieta, potem opis referencji oraz 30-sekundowy plan. Pokazuje rozdzielenie informacji z briefu od obserwacji, casting bez czekania na film, własną treść reklamy i dopasowanie do krótkich generacji. To przygotowany przez autora skilla przykład i przegląd decyzji, nie niezależny test skuteczności agenta.
+[Przykład](skills/tworzenie-reklam-wideo/references/przyklad.md) przechodzi przez etapowy brief: najpierw produkt i kobieta, potem opis referencji oraz 30-sekundowy plan. Pokazuje rozdzielenie informacji z briefu od obserwacji, casting bez czekania na film, własną treść reklamy i dopasowanie do krótkich generacji. To przygotowany przez autora skilla przykład i przegląd decyzji, nie niezależny test skuteczności agenta.
 
 ## Granica sprawdzenia
 
